@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaGoogle } from "react-icons/fa";
 
 import AuthFormInput from "../../../fragment/AuthInput/AuthFormInput";

@@ -1,10 +1,8 @@
+import { useEffect } from 'react';
 import GetStarted from '../../fragment/Jumbotron/GetStarted';
 import Subscribe from '../../fragment/Jumbotron/Subscribe';
 import ListFilter from '../../fragment/Card/ListFilter';
 import CardAction from '../../fragment/Card/CardAction';
-import { useEffect, useState } from 'react';
-import type { IProduct } from '../AdminElements/ProductManage/Types';
-import { localStorageProduct } from '../../../utils/localStorageProduct';
 import { storeProduct } from '../../../libs/zustand/storeProducts';
 
 const LandingElements = () => {

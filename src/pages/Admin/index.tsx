@@ -1,7 +1,5 @@
-import { useEffect } from "react";
 import AdminLayout from "../../components/layouts/AdminLayout";
 import AdminElements from "../../components/views/AdminElements";
-import { getProductCoursesById } from "../../libs/axios/services/productServices";
 
 
 const AdminPage = () => {

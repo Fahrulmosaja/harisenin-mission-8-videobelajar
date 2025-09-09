@@ -1,4 +1,3 @@
-import React from 'react'
 import AuthLayout from '../../../components/layouts/AuthLayout';
 import AuthLogin from '../../../components/views/AuthElements/AuthLogin';
 
